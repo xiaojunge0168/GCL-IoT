@@ -1,2 +1,25 @@
 # GCL-IoT
 This is the source code for GCL-IoT
+# Core dependencies
+torch>=2.0.0
+torch-geometric>=2.3.0
+torch-scatter>=2.1.0
+To run this code, the following configuration is required:
+torch-sparse>=0.6.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Configuration
+pyyaml>=6.0
+
+# Optional
+wandb>=0.15.0  # for experiment tracking
+tqdm>=4.65.0   # for progress bars
